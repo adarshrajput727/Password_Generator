@@ -17,10 +17,9 @@ The project is designed to demonstrate Python Essentials concepts in a practical
 
 1. **Character-count password generation** — specify lowercase, uppercase, symbol, and number counts.
 2. **Length-based generation** — choose a total password length and character categories.
-3. **Batch generation** — generate multiple passwords in one run.
-4. **Password analysis** — inspect length, character categories, and approximate entropy.
-5. **Input validation** — invalid numeric input is handled without crashing the program.
-6. **Secure random selection** — uses Python's `secrets` module for character selection.
+3. **Password analysis** — inspect length, character categories, and approximate entropy.
+4. **Input validation** — invalid numeric input is handled without crashing the program.
+5. **Secure random selection** — uses Python's `secrets` module for character selection.
 
 ## 3. Project Structure
 
@@ -85,7 +84,7 @@ There are no third-party dependencies.
 python -m pip install -r requirements.txt
 ```
 
-## 6. Run the Project
+## 5. Run the Project
 
 From the repository root:
 
@@ -95,7 +94,7 @@ python main.py
 
 The project is fully command-line executable.
 
-## 7. Menu
+## 6. Menu
 
 ```text
 ==========================================================
@@ -111,7 +110,7 @@ Options:
   5. Exit
 ```
 
-## 8. Testing
+## 7. Testing
 
 Run:
 
@@ -127,7 +126,7 @@ All tests passed.
 
 The tests cover input validation, character-count generation, length-based generation, batch generation, and strength analysis.
 
-## 9. Design
+## 8. Design
 
 ### Architecture
 
@@ -145,7 +144,7 @@ flowchart TD
     H --> A
 ```
 
-### Workflow
+## 9. Workflow
 
 ```mermaid
 flowchart TD
@@ -165,13 +164,8 @@ flowchart TD
     K --> B
 ```
 
-## 10. Security Note
 
-The project uses `secrets.choice()` rather than the ordinary `random` module for password character selection. This is appropriate for a security-oriented educational project. No generated password is saved to a database or transmitted to an external service.
-
-The strength calculation is an educational estimate, not a replacement for a professional password-auditing service.
-
-## 11. Future Enhancements
+## 10. Future Enhancements
 
 - GUI using Tkinter.
 - Clipboard integration.
@@ -180,11 +174,11 @@ The strength calculation is an educational estimate, not a replacement for a pro
 - More advanced password-strength analysis.
 - Packaging as an installable command-line application.
 
-## 12. Academic Submission
+## 11. Academic Submission
 
 This repository contains the source code, documentation, testing code, project statement, and report content required for the VITyarthi project format. The detailed PDF report is prepared separately for portal submission.
 
-## 13. Author
+## 12. Author
 
 **Adarsh Kumar**  
 Registration No. **26BAI10716**  
